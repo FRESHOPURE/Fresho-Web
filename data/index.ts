@@ -1,8 +1,15 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Blogs", link: "#blogs" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+];
+
+export const logo = [
+  {
+    img: "/logo.png",
+  },
 ];
 
 export const gridItems = [
@@ -40,48 +47,56 @@ export const gridItems = [
 
 export const blogs = [
   {
-    date: "12 April 2021",
-    title: "The Decorated Ways",
-    description: "Dive into minimalism",
+    id: "1",
+    date: "15 August 2023",
+    title: "Maximizing Efficiency",
+    description: "How technology is streamlining hotel supply chains",
     image: "1.jpg",
     dimensions: "sm:w-1/2",
   },
   {
-    date: "12 April 2021",
-    title: "The Decorated Ways",
-    description: "Dive into minimalism",
+    id: "2",
+    date: "10 September 2023",
+    title: "Success Stories",
+    description:
+      "Inspiring tales of growth and partnership through our platform",
     image: "2.jpg",
     dimensions: "sm:w-1/2 sm:mt-0 mt-4",
   },
   {
-    date: "12 April 2021",
-    title: "The Decorated Ways",
-    description: "Dive into minimalism",
+    id: "3",
+    date: "22 October 2023",
+    title: "The Future of Hospitality Supply Chains",
+    description: "Exploring trends and innovations shaping the industry",
     image: "3.jpg",
     dimensions: "relative mt-8 md:mt-6 hidden sm:block",
   },
   {
-    date: "12 April 2021",
-    title: "The Decorated Ways",
-    description: "Dive into minimalism",
+    id: "4",
+    date: "5 November 2023",
+    title: "Sustainable Sourcing for Hotels",
+    description: "The benefits of eco-friendly supply practices",
     image: "4.jpg",
     dimensions: "relative sm:hidden",
   },
   {
-    date: "12 April 2021",
-    title: "The Decorated Ways",
-    description: "Dive into minimalism",
+    id: "5",
+    date: "18 December 2023",
+    title: "Leveraging Data for Better Collaboration",
+    description: "How data insights enhance hotel and vendor partnerships",
     image: "6.png",
     dimensions: "relative sm:block hidden",
   },
   {
-    date: "12 April 2021",
-    title: "The Decorated Ways",
-    description: "Dive into minimalism",
+    id: "6",
+    date: "10 January 2024",
+    title: "Optimizing  Reach",
+    description: "Strategies for vendors to expand their market presence",
     image: "5.jpg",
     dimensions: "relative w-full",
   },
   {
+    id: "7",
     date: "12 April 2021",
     title: "The Decorated Ways",
     description: "Dive into minimalism",
@@ -90,22 +105,50 @@ export const blogs = [
   },
 ];
 
+export const blogpage = [
+  {
+    id: "1",
+    title:
+      "Google Search Ranks AI Spam Above Original Reporting in News Results",
+    image: "/5.jpg",
+    description:
+      "As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size",
+    date: "25/05/24",
+    para: "As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.",
+    title1: "Ranks AI Spam Above Original Reporting in News Results",
+    image1: "/2.jpg",
+    description1:
+      "As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.",
+    date1: "05/05/24",
+    title2: "AI Spam Above Original Reporting in News Results",
+    image2: "/1.jpg",
+    description2:
+      "As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.",
+    date2: "28/05/24",
+    title3: "Search Ranks AI Spam Above Original Reporting in News Results",
+    image3: "/3.jpg",
+    description3:
+      "As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.",
+    date3: "30/05/24",
+  },
+];
+
 export const testimonials = [
   {
     quote:
-      "As a partner with freshopure, I guarantee the finest quality of vegetables. Each produce is carefully selected, sorted based on color and size, ensuring that only the best reaches your kitchen. With freshopure, you can also count on timely deliveries, ensuring that you always have access to the freshest ingredients for your culinary creations.",
-    name: "Girraj Singh(Chef)",
+      "As a chef, the quality of ingredients is paramount, and this platform consistently delivers the best. The produce is always fresh, and the prices are unbeatable, allowing us to maintain high standards without overspending. What truly sets this service apart is its reliable and prompt delivery. We're always well-stocked and ready to create exceptional dishes, thanks to this efficient and cost-effective solution.",
+    name: "Girraj Singh (Chef)",
     title: "Narayan Niwas",
   },
   {
     quote:
-      "At The Fern, we proudly serve freshopure's exceptional quality food. Our commitment to using chemical-free vegetables guarantees a truly refreshing and natural taste in every dish. With freshopure, we ensure that you experience the true essence of pure and wholesome flavors, providing a delightful dining experience for our valued guests.",
+      "At The Fern, we prioritize quality and cost-efficiency, and this platform perfectly aligns with our values. The fresh ingredients we receive are not only of top quality but also offered at extremely competitive rates. The delivery is impressively fast, ensuring that we can serve our guests with the freshest dishes. This service has streamlined our operations, making it easier to consistently provide a superior dining experience.",
     name: "Shakti Singh",
     title: "The Fern Residency",
   },
   {
     quote:
-      "We have partnered with freshopure to bring you the assurance of fresh and chemical-free food sourced directly from the farm. We prioritize the use of natural ingredients, allowing the true flavors to shine through in our dishes. With freshopure, we aim to provide the best culinary experience to each and every one of our esteemed customers, ensuring that every bite is a testament to our commitment to quality and taste.",
+      "Working with this platform has elevated our culinary standards. The combination of excellent product quality, affordable pricing, and rapid delivery has been a game-changer for us. We now have access to the freshest ingredients at a fraction of the cost, allowing us to enhance our menu offerings while keeping expenses in check. This partnership has truly made a positive impact on our business.",
     name: "Rajesh Gupta",
     title: "RK Hotels & Resorts",
   },
@@ -216,7 +259,7 @@ export const workExperience = [
         thumbnail: "/failed.png",
       },
       {
-        text: "Disconnected communication between hotels and vendors",
+        text: "Miscommunication between hotels and vendors",
         thumbnail: "/failed.png",
       },
       {

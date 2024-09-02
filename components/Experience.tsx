@@ -37,7 +37,7 @@ const Experience = () => {
                       alt={item.thumbnail}
                       className="w-5 h-5 mr-3"
                     />
-                    <span className="text-lg">{item?.text}</span>
+                    <span className="text-lg text-left">{item?.text}</span>
                   </li>
                 ))}
               </ul>

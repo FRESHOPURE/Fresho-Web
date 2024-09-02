@@ -7,17 +7,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Order Management"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Our platform simplifies the entire order management process for hotels and vendors. Hotels can effortlessly place daily orders, with real-time tracking ensuring transparency at every step. Vendors receive centralized orders, allowing them to process and fulfill requests efficiently. The automated system reduces manual errors, streamlines operations, and ensures timely deliveries, making the procurement process smoother and more reliable."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Vendor Collaboration"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Effective vendor collaboration is at the heart of our platform. We bridge the communication gap between hotels and vendors, fostering a seamless exchange of information. Vendors can easily manage relationships with multiple hotels, while hotels gain direct access to vendor inventories and special offers. This collaboration ensures that both parties can work together efficiently, enhancing supply chain coordination and business partnerships."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Data-Driven Insights"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Our platform offers robust analytics tools that provide actionable insights into procurement and sales data. Hotels and vendors can analyze trends, monitor performance, and make informed decisions based on real-time data. These insights enable better forecasting, inventory management, and cost control, ultimately leading to optimized operations and improved profitability for both hotels and vendors."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -71,7 +65,6 @@ const Card = ({
   title,
   icon,
   children,
-  // add this one for the desc
   des,
 }: {
   title: string;
