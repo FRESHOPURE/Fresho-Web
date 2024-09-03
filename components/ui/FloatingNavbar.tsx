@@ -72,12 +72,12 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        {logo.map((logo) => (
-          <img src={logo.img} alt="" className="h-10 w-auto" />
+        {logo.map((logo, index) => (
+          <img src={logo.img} key={index} alt="" className="h-10 w-auto" />
         ))}
 
         {navItems.map((navItem: any, idx: number) => (
-          <div>
+          <div key={idx}>
             <Link
               key={`link=${idx}`}
               href={navItem.link}

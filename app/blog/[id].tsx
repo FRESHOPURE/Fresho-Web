@@ -5,6 +5,7 @@ import { blogpage } from "@/data";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "../../components/MagicButton";
 import { TextGenerateEffect } from "../../components/ui/TextGenerateEffect";
+import Image from "next/image";
 
 export const BlogpageUi: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -33,7 +34,7 @@ export const BlogpageUi: React.FC = () => {
           href="#"
           className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50"
         >
-          <img
+          <Image
             src={`${blog.image}`}
             alt="main"
             className="object-cover w-full h-64 rounded-xl sm:h-96 lg:col-span-7 dark:bg-gray-500 shadow-xl"
@@ -56,7 +57,7 @@ export const BlogpageUi: React.FC = () => {
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
           >
-            <img
+            <Image
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500 shadow-xl"
               src={`${blog.image1}`}
@@ -74,7 +75,7 @@ export const BlogpageUi: React.FC = () => {
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
           >
-            <img
+            <Image
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500 shadow-xl"
               src={`${blog.image2}`}
@@ -92,7 +93,7 @@ export const BlogpageUi: React.FC = () => {
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
           >
-            <img
+            <Image
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500 shadow-xl"
               src={`${blog.image3}`}

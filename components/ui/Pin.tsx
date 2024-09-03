@@ -1,5 +1,4 @@
 "use client";
-import { useNavigate } from "react-router-dom";
 import React from "react";
 
 interface PinContainerProps {
@@ -19,8 +18,6 @@ export const PinContainer: React.FC<PinContainerProps> = ({
   image,
   dimensions,
 }) => {
-  const navigate = useNavigate();
-
   return (
     <div
       className={`${dimensions} relative group cursor-pointer overflow-hidden`}
@@ -40,10 +37,7 @@ export const PinContainer: React.FC<PinContainerProps> = ({
           <h2 className="text-xl font-semibold text-white">{title}</h2>
           <p className="text-base leading-4 text-white mt-2">{description}</p>
 
-          <button
-            onClick={() => navigate(`/blog/${id}`)}
-            className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
-          >
+          <button className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
             <p className="pr-2 text-sm font-medium leading-none">Read More</p>
           </button>
         </div>
